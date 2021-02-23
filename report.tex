@@ -1,0 +1,298 @@
+%
+% Disciplina: Computador e Sociedade - INF01140U
+% Professor: Prof. Dante Barone
+%
+% Questionário 1
+%
+% Instituto de Informática - INF
+% Universidade Federal do Rio Grande do Sul - UFRGS
+%
+
+% Inclusão de Figuras
+% First you have to upload the image file (JPEG, PNG or PDF) from your computer to writeLaTeX using the upload link the project menu. Then use the includegraphics command to include it in your document. Use the figure environment and the caption command to add a number and a caption to your figure. See the code for Figure \ref{fig:frog} in this section for an example.
+%
+%\begin{figure}
+%\centering
+%\includegraphics[width=0.3\textwidth]{frog.jpg}
+%\caption{\label{fig:frog}This frog was uploaded to writeLaTeX via the project menu.}
+%\end{figure}
+
+\documentclass[a4paper]{article}
+
+\usepackage[brazil]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage[]{mcode}
+\usepackage{gensymb}
+\usepackage{textcomp}
+\usepackage{multirow,colortbl,array} % estes pacotes são para fazer múltiplas linhas, colorir as celulas e formatar a tabela.
+
+% set the default code style
+\lstset {
+    basicstyle=\ttfamily\small, % monospaced font
+    breaklines=true,            % word wrap (line break on right margin
+    postbreak=\raisebox{0ex}[0ex][0ex]{\ensuremath{\color{red}\hookrightarrow\space}},
+    frame=tb,                   % draw a frame at the top and bottom of the code block
+    tabsize=4,                  % tab space width
+    showstringspaces=false,     % don't mark spaces in strings
+    numbers=left,               % display line numbers on the left
+    numberstyle=\small,
+    commentstyle=\color{green}, % comment color
+    keywordstyle=\color{blue},  % keyword color
+    stringstyle=\color{red}     % string color
+}
+
+\title{
+Computador e Sociedade \\ 
+Questionário 1
+}
+
+\author{
+Luiza Lu Frozi de Castro e Souza, 96957 (\texttt{\href{mailto:fongoses@gmail.com}{fongoses@gmail.com}})\\
+\\
+Instituto de Informática \\
+Universidade Federal do Rio Grande do Sul
+}
+
+%\date{\today}
+\date{22 de fevereiro de 2021}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Análise do capítulo 13, "A Mãe da Necessidade", do livro "Armas, Germes e Aço", do autor Jared Diamond.
+\end{abstract}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 1}
+\label{sec:q1}
+\textbf{Na sua opinião, por que povos eurasiáticos inventaram, entre outras coisas, armas de fogo, navios transcontinentais e equipamentos fabricados com aço? Por que o mesmo não ocorreu com americanos nativos ou povos africanos subsaarianos?} \\
+
+Conforme discorrido no livro, o aspecto cultural da sociedade foi um fator determinante, pois uma sociedade mais aberta, permite uma maior difusão de ideias novas, enquanto uma sociedade conservadora, as reprime. Em segundo lugar, está a disponibilidade de recursos, quanto mais abundante, menos esforço a sociedade precisa para obtê-lo. Em terceiro lugar está o gando de uma vantagem (política, econômica ou social) importante de uma sociedade sobre outra. Apesar da geografia não ser um fator determinante, no caso dos povos eurasianos ela facilitou a difusão de ideias e invenções por todo o continente, pois a interligação geográfica proporcionada por ela permitia que equipamentos e pessoas transitassem por diversas comunidades, o que não ocorreu nas comunidades ameríndias e aborígenes, por exemplo, cuja situação geográfica criou uma barreira isolando-os de outros povos. Um detalhe quanto às armas de fogo: na Europa, devido às constantes guerras entre estados vizinhos, facilitadas pela proximidade geográfica, quem possuísse essa tecnologia mais avançada tinha uma vantagem estratégica e poderia dominar os vizinhos. Quanto aos equipamentos de aço, foi devido ao grande aperfeiçoamento das técnicas de manufatura de ligas derivadas do ferro, proporcionado pela grande difusão de ideias em todo o território eurasiano.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 2}
+\label{sec:q2}
+\textbf{Segundo o autor, é possível afirmar que eurasiáticos são superiores a outros povos em termos de inventividade e inteligência? Explique.} \\
+
+Não, pois segundo o autor, em termos de inventividade e inteligência individuais todos os seres humanos possuem a mesma capacidade. A grande diferença está na sociedade: ser mais aberta a novas ideias e "heresias", além de proporcionar conhecimento técnico a grande parte de população (ensino e educação de qualidade para toda a sociedade).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 3}
+\label{sec:q3}
+\textbf{Até que ponto, a história das invenções depende do local de nascimento de alguns inventores geniais? Cite alguns inventores que você considera importantes para o desenvolvimento tecnológico no mundo e discuta se os mesmos poderiam ter nascido em outras sociedades e em outros tempos. Cite alguns inventores que, segundo sua opinião, viveram muito a frente de seu tempo, e por isso não puderam ver implementações satisfatórias de suas invenções. Procure, também, exemplos na história da Computação.} \\
+
+O local e a época de nascimento e a época interferem na criação de grandes invenções ao ponto que especificam um momento em que a sociedade vive (abertura e liberalidade ou fechamento e conservadorismo), quais as técnicas que ela já domina (educação proporcionada às pessoas) e disponibilidade de recursos para serem usados como matéria-prima (excesso) e dificuldade de obter recursos essenciais para a sobrevivência, como alimentos (escassez). Quanto às técnicas dominadas por uma sociedade é bom sempre lembrar da célebre frase do físico Isaac Newton, de 1675: \textit{"Se eu vi mais longe, foi por estar sobre ombros de gigantes"}, o que significa que o conhecimento é uma construção, ou seja, se estamos em uma escada e já nos encontramos no décimo degrau, podemos construir o décimo-primeiro e subir mais um degrau. Alguns inventores que viveram muito a frente de seu tempo são o físico grego Arquimedes de Siracusa (287 a.C. - 212 a.C.), o polímata Leonardo da Vinci (1452 - 1519), cuja maioria dos inventos só veio a conhecimento público muito após sua morte, e o médico Ignaz Semmelweis (1818 - 1865) que descobriu a incidência de infecção devido à presença de partículas desconhecidas nas mãos do médico que realiza algum procedimento que poderiam ser removidas com uma solução de hipoclorito de cálcio, foi cancelado pela comunidade médica de sua época e tratado como louco. Na área da computação podemos citar a matemática Ada Lovelace (1815 - 1852), cujos trabalhos para a \textit{Máquina Analítica} de Charles Babbage só foram reconhecidos muitos anos após sua morte.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 4}
+\label{sec:q4}
+\textbf{O que você pondera como mais importante para os avanços tecnológicos da sociedade? A inventividade individual ou a receptividade das sociedades à inovação?} \\
+
+O mais importante para os avanços tenológicos é a receptividade da sociedade à inovação, pois sem isso, mesmo que hajam inventores inovadores, suas criações poderão nunca ser aceitas pela sociedade e se perderem no decorrer do tempo.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 5}
+\label{sec:q5}
+\textbf{Por que a tecnologia evolui em ritmos bastante distintos em continentes diferentes e em períodos de tempo diferentes em um mesmo continente? Cite exemplos de invenções para contextualizar sua resposta.} \\
+
+Podemos identificar, pelo menos 4 fatores: disponibilidade de matéria-prima, escassez de algum recurso básico para a sobrevivência, isolamento geográfico e fator cultural para receptividade à novas ideias, sejam elas criadas dentro da sociedade, como trazidas por outras sociedades através da difusão. Algumas invenções que ilustram isso são a \textit{cerâmica}, onde, dependendo da localização geográfica começou a ser utilizada em diferentes períodos (há 14 mil anos no Japão e 10 mil anos no Oriente Médio); a \textit{roda} que foi criada em diferentes épocas e com técnicas diferentes na Eurásia e na América; e os \textit{mosquetes} adotados rapidamente pelas tribos maori da Nova Zelândia, o que deu a eles uma vantagem sobre as demais tribos e atualmente são uma das únicas tribos sobreviventes.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 6}
+\label{sec:q6}
+\textbf{Qual das duas afirmações faz mais sentido para você? A Necessidade é a Mãe da Invenção ou é a Invenção a Mãe da Necessidade? Explique citando exemplos. Não deixe de mencionar o Fonógrafo de Thomas Edison inventado em 1877 entre os inventos a serem destacados para explicar sua resposta.} \\
+
+Mais sentido faz dizer que \textit{a Invenção é a Mãe da Necessidade}, pois, conforme o autor, as pessoas individualmente tendem a ser criativas e inovadoras (em grande parte movidas por curiosidade própria, fama, poder ou retorno financeiro) e geram produtos que tendem a satisfazer seu ego. A sobrevivência desses produtos como invenções depende da aceitação dos mesmos pela sociedade, senão nunca sairão da oficina do inventor. Como o próprio Steve Jobs, dono da Apple, uma das empresa mais criativas e inovadoras no período de sua gestão, fazia era \textit{"criar a necessidade"} nas pessoas, ou seja, a partir do momento que as pessoa começassem a utilizar o produto, encontrariam formas de atender suas necessidades com ele. Quanto ao fonógrafo de Thomas Edson, ele foi inventado independentemente das pessoas terem ou não a necessidade de um dispositivo para ler e ditar textos, isso não era necessário para a sociedade de sua época, mas a partir do momento que as pessoas descobriram que o fonógrafo poderia ser utilizado para tocar música, viu-se que havia uma necessidade das pessoas que era \textit{"escutar música" quando quisessem e não apenas quando houvesse uma banda disponível para tocar}.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 7}
+\label{sec:q7}
+\textbf{Além do Fonógrafo mencionado na pergunta anterior, contextualize a importância da necessidade ou a obtenção de aplicações após a descoberta de uma invenção, mesmo que para outros propósitos para os seguintes itens de grande importância para a sociedade: automóvel, avião, motor de combustão interna e lâmpada elétrica de bulbo.} \\
+
+A necessidade ou obtenção de aplicações para uma invenção após a sua descoberta age de duas formas: uma delas é que as invenções são criadas através de um \textit{"processo construtivo"}, ou seja, uma invenção pode servir de base para outra, como o motor de combustão interna foi a base para a criação do automóvel e do avião; a outra é a pesquisa básica feita para descobrir novas tecnologias ou produtos, mesmo que não haja uma necessidade a ser atendida imediatamente por essa pesquisa, como as pesquisas em eletricidade e corrente alternada foram essenciais para a criação da lâmpada de bulbo, mesmo que, quando a eletricidade tenha sido descoberta não houvesse a necessidade de usar ela para a iluminação.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 8}
+\label{sec:q8}
+\textbf{Qual a importância do movimento ludista para fazer com que certos avanços tecnológicos demorassem mais para serem aceitos em maior grau na sociedade em que atuaram? Nota- Não há referência ao ludismo no texto.} \\
+
+O \textit{ludismo} foi um movimento que ocorreu principalmente na Inglaterra nos séculos XVIII e XIX que se caracterizava através da destruição de máquinas e fábricas por trabalhadores. Nesse movimento a principal questão eram as péssimas condições dos trabalhadores nas fábricas no início da Revolução Industrial, ao mesmo tempo em que esse foi um período onde ouve a criação de diversas invenções inovadoras focadas na substituição do trabalho humano. Esse movimento pode ser caracterizado como uma resistência da sociedade à inovações que reduzem a mão de obra necessária para a confecção de produtos, deixando muitos trabalhadores sem condições mínimas de sobrevivência. Por ser um movimento de resistência à inovação ele fez com que as sociedades demorassem mai a adotar certos tipos de invenções.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 9}
+\label{sec:q9}
+\textbf{Quais foram as principais invenções tecnológicas que se desenvolveram e tiveram uso desde então por ocasião e decorrentes das 1a e 2a Guerras Mundiais? Explique o porquê de suas necessidades de invenção e/ou utilização massiva e o porquê se alastraram nas sociedades após os embates militares em nível global.} \\
+
+Na Primeira Guerra Mundial, as principais inovações foram os veículos motorizados, principalmente os caminhões, usados no transporte de pessoas e insumos pelos exércitos e que atualmente são fundamentais para a mobilidade de pessoas e a logística de produtos. Junto com os caminhões, podemos citar também o início da aviação, que deixava de ser um hobby para a classe dominante, para ganhar utilidade como arma de guerra e atualmente ser essencial para a logística de produtos e transporte de pessoas.
+
+Na Segunda Guerra Mundial, uma das principais inovações tecnológicas foi a bomba atômica. A necessidade era de possuir esse artefato de destruição em massa antes do inimigo, obtendo, assim, uma enorme vantagem militar que poderia poupar as vidas de muitos combatentes da nação que possuísse a bomba. Foi o caso dos Estado Unidos ao iniciar o Projeto Manhattan na tentativa de ter uma vantagem bélica sobre a Alemanha nazista antes que esta última o fizesse. Após os embates, a tecnologia nuclear teve uma utilização massiva pois, além de proporcionar para a nação possuidora da bomba atômica uma enorme vantagem militar e poder sobre outras nações, poderia ser usada para a geração de energia elétrica em países onde recursos como carvão, gás, petróleo e rios eram extremamente limitados, um exemplo disso são as usinas termonucleares, como a de Fukushima no Japão.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 10}
+\label{sec:q10}
+\textbf{Você considera os teclados de computador e das antigas máquinas de escrever no padrão QWERTY, cujo design foi criado em 1932, adequado para os dias de hoje? Em caso de existirem possíveis configurações de teclados mais eficientes, o que explica que este padrão não mudou ainda e possivelmente não mudará tão cedo?} \\
+
+Atualmente poderiam ter formas mais inovadoras de entrada de dados, não apenas o teclado, mas voz e movimentos. Quanto ao teclado QWERTY, é possível que existam melhores configurações de disposição dos caracteres para facilitar a digitação conforme a linguagem utilizada, por exemplo, as letras mais frequentes poderiam ficar próximas dos dedos com melhor motricidade, acelerando a digitação. Desse modo o teclado QWERTY de 1932 não seria o mais adequado nos dias de hoje. Esse padrão não mudou ainda, e nem mudará tão cedo, pois existe um enorme contingente de pessoas que já estão acostumadas com os teclados QWERTY, cuja memória muscular já encontra-se tão bem treinada, que a utilização de outros \textit{layouts} de teclado implicaria em um enorme esforço e muito tempo de treinamento para se chegar à mesma memória muscular. Uma exemplo disso são os \textit{millennials} (Geração Y) e as Gerações Z e Alfa, cuja imersão tecnológica é tão grande e profunda, que essas pessoas tiveram o primeiro contato com os teclados QWERTY antes mesmo de saber ler ou escrever.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 11}
+\label{sec:q11}
+\textbf{Explique o porquê de os Estados Unidos terem inventado e patenteado o transistor, elemento chave para o desenvolvimento surpreendente das Tecnologias de Informação e Comunicação, e não terem se tornado o país mais desenvolvido na produção de chips? Tente pesquisar que iniciativas o Brasil já teve/tem em Microeletrônica e relacione com o desenvolvimento deste campo nos países chamados Tigres Asiáticos. Em sua opinião, por que a indústria de semicondutores não floresceu no Brasil. Contextualize sua resposta incluindo o exemplo do CEITEC, localizado em Porto Alegre.} \\
+
+Apesar dos Estados Unidos terem inventado e patenteado o transistor, na época em que foram invetados, a indústria norte-americana já fabricava válvulas em massa e não queria criar uma competição com seu próprios produtos. Desse modo, a norte-americana Western Electric vendeu os direitos de fabricação para a japonesa Sony, o que conferiu ao Japão, durante muito tempo, a liderança no mercado de produtos transistorizados.
+
+No Brasil, as iniciativas em microeletrônica tiveram início em 1975, com a instalação de uma unidade de montagem e testes de circuitos integrados da Philco. Nos anos 1980, com a entrada do Centro de Pesquisas e Desenvolvimento da Telebrás, o setor ganhou força com os primeiros circuitos integrados desenvolvidos no Brasil (processadores para telex, repetidores PCM e de comutação). Nessa época a Secretaria Especial de Informática - SEI mais algumas empresas brasileiras entraram no mercado: Elebra, Itautec e SID, juntamente com algumas multinacionais focadas na etapa de encapsulamento, totalizando 20 empresas no setor. No início da década de 1990, com abertura abrupta do mercado interno, a nascente indústria de semicondutores no Brasil perdeu a sua competitividade, em grande parte devido à defasagem tecnológica e questões políticas, aliadas à uma crise econômico-financeira e problemas de gestão. O fechamento da SID em meados de 1990, pode ser considerado o término desse período. Nos anos subsequentes, com a Lei de Informática (Lei 8.248/91) o foco na área foi dado à etapa final do processo produtivo que é a montagem e uso dos circuitos integrados em placas e circuitos maiores. Com o objetivo de promover novamente a indústria de microprocessadores no Brasil, em 2002, o Ministério da Ciência e Tecnologia - MCT formulou o Plano Nacional de Microeletrônica - PNM focado no projeto de CIs, fabricação e encapsulamento. Em 2006 surge o programa CI Brasil, que surgiu como uma tentativa de se melhorar a balança comercial brasileira, fomentando, assim, a indústria local de semicondutores com criando mão de obra especializada (cursos superiores na área e criação de Design Houses) e a atração de foundries para se estabelecer em território nacional (com isenção de impostos).
+
+A empresa CEITEC surgiu como um projeto nos anos 2000, onde um protocolo entre governo e empresas foi assinado. Em 2005 iniciaram as atividades de Design nos parques tecnológicos da UFRGS e PUCRS, em Porto Alegre. Em 2008 o governo federal encampou a empresa, no ano seguinte o prédio administrativo é inaugurado e, em 2010, o então Presidente da República Luiz Inácio Lula da Silva inaugura a \textit{sala limpa}, dando início à fabricação de produtos, como microprocessadores e ASICs.
+
+Ao contrário do Brasil, nos chamados \textit{Tigres Asiáticos} os seus governos começaram a investir pesado na atração de indústrias de microeletrônica através de incentivos e até investimentos diretos e proteção ao mercado, na Coreia do Sul desde a década de 1970, Taiwan a partir do ano de 1985, Cingapura a partir de 1987 e China em 1995. Com isso percebemos que o Brasil construiu uma de suas primeiras fábricas modernas, pelo menos, 15 anos após os principais players.
+
+No Brasil a indústria não floresceu principalmente por causa da política econômica dos governos militares, que isolava o mercado interno do país da economia global, além de favorecer uma indústria que mais copiava produtos e tecnologias defasadas no exterior ao invés de inovar. Com a abertura abrupta da economia no início dos anos 1990 pelo então Presidente da República Fernando Collor, por falta de inovação as empresas brasileira não tiveram como competir com os produtos estrangeiros, além de muitas empresas terem que enfrentar processos por violação de patentes, pois os produtos "nacionais" não passavam de uma cópia de baixa qualidade dos produtos importados. Além disso, essa abertura não forneceu à nascente indústria nacional de circuitos integrados um período de proteção para que se adaptassem ao novo mercado global. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 12}
+\label{sec:q12}
+\textbf{Seria possível descrever em termos gerais o que distinguiria uma sociedade receptiva ou conservadora à incorporação de novas tecnologias? Cite exemplos (no mínimo 2) de sociedades/povos que alterara esta característica ao longo do tempo. Explique as principais razões para tais fatos terem ocorrido.} \\
+
+Uma sociedade receptiva à incorporação de novas tecnologias é aquela que, ao se deparar com uma inovação ou produto inovador, procura conhecê-lo bem e tenta verificar se é possível atender a uma necessidade da sociedade com ele, ou mesmo, substituir uma antiga tecnologia por esta nova. Já uma sociedade conservadora à incorporação de novas tecnologias é aquela que prefere continuar mantendo a sociedade o mais igual possível através dos tempos, ou ainda pode ser considerada aquela sociedade onde quando a inovação entra em choque com algo já socialmente estabelecido, a inovação é descartada em favor do status-quo.
+
+Uma das sociedades que alterou as características de conservadora para receptiva ao longo do tempo, foi o Japão, que durante o Período Edo, com a supremacia dos Samurais, refutou as armas de fogo trazidas pelos comerciantes eurasianos. Quando percebeu que o país ficou extremamente vulnerável aos ataques estrangeiros, com exércitos armados com armas de fogo, a sociedade teve que aceitar essa inovação tecnológica para não ficar a mercê dos inimigos.
+
+Já outra sociedade que alterou as características de receptiva para conservadora são os países islâmicos do Oriente Médio, que devido ao extremismo religioso e governos autoritários, são menos receptivos à inovação do que o Islã medieval que, na mesma época, tinha uma taxa de alfabetismo maior que a da Europa, além de ter absorvido o conhecimento clássico greco-romano e as inovações chinesas da mesma época.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 13}
+\label{sec:q13}
+\textbf{Qual a importância da manutenção de uma tecnologia e de sua difusão? Responda citando exemplos.} \\
+
+A difusão é essencial para que uma tecnologia permaneça em uso e evolua, quanto mais pessoas a utilizarem, mais difícil é dela desaparecer e ficar esquecida. Além disso, quanto maior o uso, maior será a possibilidade de alguma mente inovadora criar um novo produto a partir da tecnologia existente (como o automóvel foi criado a partir do motor à combustão), ser dado um novo uso para a tecnologia existente (no caso do uso do Fonógrafo de Thomas Edson para tocar música) ou dessa tecnologia evoluir (como o descaroçador de algodão de fibras curtas de Eli Whitncy). Uma outra vantagem da difusão é levar a tecnologia até sociedades mais receptivas, como no caso da iluminação pública utilizando energia elétrica que enfrentou grande resistência para o uso na Inglaterra, enquanto outros países já a utilizavam.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 14}
+\label{sec:q14}
+\textbf{Qual a importância do sedentarismo na evolução humana para a história da tecnologia? Contextualize} \\
+
+A vida sedentária foi essencial na evolução humana na história da tecnologia, pois permitiu que as pessoas pudessem acumular bens não-portáteis. As sociedades nômades estão limitadas à tecnologia que podem carregar consigo, quanto mais frequente é o deslocamento, menos bens são carregados. E se não há meios de carga (animais, carroças, veículos automotores), as pessoas ficam limitadas a possuir somente o essencial que podem carregar consigo. Por exemplo, para um indivíduo que desloca-se com frequência e que não dispõe de meios de carga seus pertences serão reduzidos ao mínimo, pois não será possível carregar grandes vasos, prensa, livros, uma série de armas de grande porte, etc. E se houver alguma dificuldade geográfica no deslocamento os pertences serão ainda mais escassos. Se estabelecendo em um local, os indivíduos podem acumular tecnologia e usar essas tecnologias para criar cada vez mais tecnologias, em um processo cíclico. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Questão 15}
+\label{sec:q15}
+\textbf{Qual sua visão em relação à evolução tecnológica do Brasil? O país tem características mais inovadora ou conservadora em relação a avanços tecnológicos? Cite áreas em que o Brasil se destacou/destaca tecnologicamente e explique o porquê desse desenvolvimento. Quais fatores são mais importantes para alavancar o desenvolvimento tecnológico no país? Mais investimentos públicos e privados? Melhor educação em todos níveis, com melhor formação de profissionais? Menos entraves burocráticos para a criação de empresas? Sistema tributário mais enxuto, facilitando a operação das empresas? Cite outros fatores que julgar relevantes e coloque suas respostas em escala decrescente de importância dos fatores que levam o Brasil a ser mais ou menos inovador.} \\
+
+Algo colocado pelo autor no texto, de forma sutil é que uma evolução social aumenta a receptividade da sociedade em relação às mudanças e permite que novas tecnologias floresçam. Ao passo que, um retrocesso social aumenta o conservadorismo em relação à mudanças, fazendo com que a sociedade refute novas tecnologias que possam entrar em choque com suas crenças (como exemplo, pode-se citar a questão dos terra-planistas). 
+
+Acredito que o país atualmente encontre-se em um processo de retrocesso social e conservadorismo em relação a mudanças e inovações tecnológicas. As pessoas preferem acreditar em suas próprias crenças do que nos fatos reais. Desconfiam de quem não compartilha das mesmas crenças. O debate construtivo e a troca de ideias estão contaminados pelas fake-news e discursos de ódio.
+
+O país atualmente se destaca na pesquisa agropecuária, principalmente devido ao agronegócio voltado para exportação, e na prospecção de petróleo em águas profundas, alavancada pela Petrobras e devido à grande quantidade desse recurso na plataforma continental brasileira. Mesmo com o destaque para o setor de petróleo, ainda falta muito para o país desenvolver o refino de petróleo pesado. 
+
+Ao meu ver, para um país ser mais inovador é preciso ter os seguintes fatores:
+\begin{enumerate}
+    \item Melhor educação em todos os níveis para fornecer condições técnicas e uma excelente formação profissional estimulando a inovação.
+    \item Alto índice de confiabilidade entre as pessoas, instituições e empresas, que reduz os gastos de uma empresa em relação ao custos jurídicos e legais para o cumprimento e/ou rompimento de um contrato.
+    \item Baixo custo-país com uma infraestrutura adequada para a difusão de tecnologia e produtos a um custo baixo.
+    \item Sistema tributário simplificado, para que pequenas empresas não tenham que consumir grande parte do faturamento apenas na organização dos impostos a serem pagos.
+    \item Menor burocracia para a abertura de empresas, como estímulo ao empreendedorismo constante.
+    \item Mais investimentos públicos e privados, este é o último fator, pois não satisfazendo as demais condições, o investimento pode-se perder em custos legais, multas tributária, corrupção ou falta de inovação.
+\end{enumerate}
+
+Infelizmente o país acaba tendo vários problemas que impedem a inovação:
+\begin{itemize}
+    \item Educação de má qualidade e alto índice de analfabetismo funcional.
+    \item Em geral o nível de confiança no país é muito baixo, o que leva à judicialização de muitas disputas litigiosas.
+    \item Alto custo-país devido à infraestrutura deficitária e cara em muitas regiões do país.
+    \item Sistema tributário complexo, com múltiplos impostos cumulativos, cobradas por diferentes instituições governamentais: União (Imposto de Renda para a Receita Federal, INSS para o INSS, PIS, COFINS, CIDE, IPI, Imposto de Importação, etc), Estados (cada um cobra o seu ICMS, com cobrança múltipla no estado de origem e no estado de destino da mercadoria, além do IPVA, entre outros), Municípios (cada um cobra o seu, com ISSQN, IPTU, entre outros), com o agravante de que \textit{cabe à empresa a responsabilidade de pagar cada imposto para cada instituição do governo o respectivo valor}.
+    \item Uma burocracia enorme para a abertura de empresas, favorecendo a corrupção.
+    \item Investimentos públicos cada vez mais escassos e os investimentos privados dependem muito do setor a da área em questão (o foco é no alto retorno a curto e médio prazos). Além disso esses investimentos tentem a se perder devido à má gestão e à corrupção.
+\end{itemize}
+
+Pessoalmente, acredito que o primeiro passo deva ser melhorar a educação, pois com uma melhor qualificação é possível ter uma melhora nas outras áreas e assim iniciar uma mudança sustentável, baseada em uma mudança social.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Beamer does not support BibTeX so references must be inserted manually as bellow
+\begin{thebibliography}{99}
+
+    \bibitem{ceitec}
+    CEITEC.
+    \textit{CEITEC S.A. Apresentação}.
+    Disponível em \url{http://www.ceitec-sa.com/pt/quem-somos/apresentacao}. Acesso em 22/02/2021.
+
+    \bibitem{diamond-2013}
+    DIAMOND, Jared (2013)
+    \textit{Armas, Germes e Aço}.
+    Capítulo 13: A Mãe da Necessidade.
+    Editora Record, 2013.
+
+    \bibitem{francisco}
+    FRANCISCO, Wagner de Cerqueira e.
+    \textit{Tigres Asiáticos}.
+    Brasil Escola.
+    Disponível em \url{https://brasilescola.uol.com.br/geografia/tigres-asiaticos.htm}. Acesso em 22/02/2021.
+
+    \bibitem{nassif-2005}
+    NASSIF, André (2005)
+    \textit{Estratégias de Desenvolvimento em Países de Industrialização Retardatária: Modelos Teóricos, a Experiência do Leste Asiático e Lições para o Brasil}.
+    Revista do BNDES. V. 12, N. 23, p. 135-176.
+    Rio de Janeiro: BNDES, 2005.
+    Disponível em \url{https://web.bndes.gov.br/bib/jspui/bitstream/1408/11457/2/RB%2023%20Estrat%C3%A9gias%20de%20Desenvolvimento%20em%20Pa%C3%ADses%20de%20Industrializa%C3%A7%C3%A3o%20Retardat%C3%A1ria_Modelos%20Te%C3%B3ricos_P_BD.pdf}. Acesso em 22/02/2021.
+
+    \bibitem{rivera}
+    RIVERA, Ricardo; et. al.
+    \textit{Microeletrônica: qual é a ambição do Brasil?}.
+    BNDES Setorial. N. 41, p. 345-396.
+    BNDES.
+    Disponível em \url{https://web.bndes.gov.br/bib/jspui/bitstream/1408/4282/1/BS41-Microeletr%C3%B4nica_qual%20%C3%A9%20a%20ambi%C3%A7%C3%A3o%20do%20Brasil_atualizado_P.pdf}. Acesso em 22/02/2021.
+
+    \bibitem{wiki-ceitec}
+    WIKIPEDIA.
+    \textit{Centro Nacional de Tecnologia Eletrônica Avançada}.
+    Disponível em \url{https://pt.wikipedia.org/wiki/Centro_Nacional_de_Tecnologia_Eletr%C3%B4nica_Avan%C3%A7ada}. Acesso em 22/02/2021.
+
+    \bibitem{wiki-ludismo}
+    WIKIPEDIA.
+    \textit{Ludismo}.
+    Disponível em \url{https://pt.wikipedia.org/wiki/Ludismo}. Acesso em 22/02/2021.
+
+    \bibitem{wiki-microeletronica}
+    WIKIPEDIA.
+    \textit{Microeletrônica}.
+    Disponível em \url{https://pt.wikipedia.org/wiki/Microeletr%C3%B4nica}. Acesso em 22/02/2021.
+
+\end{thebibliography}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \section{Descrição da Seção}
+% \label{sec:id-secao}
+
+% Comando: \texttt{comando de terminal}
+
+% \begin{lstlisting}
+% Código Fonte
+% \end{lstlisting}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
